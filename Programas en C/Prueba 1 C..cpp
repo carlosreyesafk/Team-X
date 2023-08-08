@@ -2,6 +2,10 @@
 
 int main(){
 	
-	printf("Hola.");
+	int x;
 	
+	printf("\nHola.");
+	
+	scanf("%i", &x);
+	return 0;
 }
