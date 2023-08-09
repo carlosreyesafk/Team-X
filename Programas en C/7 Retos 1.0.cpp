@@ -129,7 +129,7 @@ int main(){
 	do{
 	
 	do{
-		printf("Menu");
+		printf("Menu\n");
 		printf("\nReto #1");
 		printf("\nReto #2");
 		printf("\nReto #3");
