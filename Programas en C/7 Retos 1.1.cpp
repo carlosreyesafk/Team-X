@@ -15,9 +15,9 @@ void reto1(){
 		int num1, num2, resultado;
 				
 		printf("\nIngrese el numero 1: ");
-		scanf("%i", &num1);
+		scanf("%s", &num1);
 		printf("\nIngrese el numero 2: ");
-		scanf("%i", &num2);
+		scanf("%s", &num2);
 				
 		if (num1 > num2){
 			
@@ -102,9 +102,9 @@ void reto3(){
 		printf("\nIngrese el numero a comparar: ");
 		scanf("%i", &num3);
 				
-		if (num3 <= num2 | num3 >= num1){
+		if (num3 <= num2 & num3 >= num1){
 			
-			printf("\nEl numero %i se encuentra dentro rango, gracias ", num3);
+			printf("\nEl numero %i se encuentra dentro del rango, gracias ", num3);
 			
 		}
 
@@ -130,6 +130,7 @@ int main(){
 	
 	do{
 		printf("Menu");
+		printf("\n-------");
 		printf("\nReto #1");
 		printf("\nReto #2");
 		printf("\nReto #3");
