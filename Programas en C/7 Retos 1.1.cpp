@@ -15,9 +15,9 @@ void reto1(){
 		int num1, num2, resultado;
 				
 		printf("\nIngrese el numero 1: ");
-		scanf("%s", &num1);
+		scanf("%i", &num1);
 		printf("\nIngrese el numero 2: ");
-		scanf("%s", &num2);
+		scanf("%i", &num2);
 				
 		if (num1 > num2){
 			
